@@ -1,0 +1,7 @@
+.banner {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/spotifynikol.appspot.com/o/foto2.webp?alt=media&token=28afb2f4-0481-43ed-92b0-b71e11d1cff3);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 30%;
+}
