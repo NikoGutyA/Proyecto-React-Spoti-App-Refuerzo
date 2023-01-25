@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 
-//Componentes
-import { Home } from './Components/Home/Home';
-import { Members } from './Components/Members/Members';
+/* Routes App */
+import { Rutas } from './router/rutas';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-    <Members />
-    {/* <Home /> */}
-
+    <BrowserRouter>
+      <Rutas />
+    </BrowserRouter>
   </React.StrictMode>
 );
 

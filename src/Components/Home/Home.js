@@ -1,16 +1,8 @@
 import './Home.css';
 
-//Componentes
-import { Menu } from '../../shared/Menu/Menu';
-import { Footer } from '../../shared/Footer/Footer';
-
 export function Home() {
     return (
         <>
-        <Menu />
-
-            
-
             <section>
                 <div className="banner"></div>
             </section>
@@ -19,9 +11,9 @@ export function Home() {
                 <div className="container">
                     <div className="row mt-5">
                         <div className="col-12 col-md-8">
-                            <h2>GORILLAZ</h2>
+                            <h2>One Direction</h2>
                             <p>
-                            Gorillaz es una banda británica creada en 1998 por Damon Albarn y Jamie Hewlett. La banda utiliza cuatro personajes ficticios los cuales son: 2-D, Noodle, Murdoc Niccals y Russel Hobbs. Su nombre tiene un motivo, se debe a que sus creadores nacieron, según el calendario chino, en el año del mono.
+                            El grupo comenzó en 2010 en "The X Factor" después de que Niall Horan, Zayn Malik, Liam Payne, Harry Styles y Louis Tomlinson se presentaran en las audiciones de este programa. Individualmente, no lograron pasar a la siguiente ronda, pero formaron una banda, que ahora es una de las más exitosas de la historia.
                             </p>
                             <figure>
                                 <img className="img-fluid w-100" src='https://firebasestorage.googleapis.com/v0/b/spotifynikol.appspot.com/o/foto%205.jpg?alt=media&token=cceeb79e-56de-46ea-bb0a-c49ae735ff44' alt='' />
@@ -107,14 +99,14 @@ export function Home() {
                 <div className="container-fluid mt-5">
                     <div className="row">
                         <div className="col-12">
-                            <h1>
+                            <h1 className='text-center'>
                                 noticias
                             </h1>
                             <hr/>
                         </div>
                     </div>
     
-                    <div className="row">
+                    <div className="row text-center">
                         <div className="col-12 col-md-4">
                             <img src='https://firebasestorage.googleapis.com/v0/b/spotifynikol.appspot.com/o/Foto.jpg?alt=media&token=1704cee5-25ca-46db-997f-c4fae0d9d92b' alt='ImageLeft' className="img-fluid w-100" />
                             <p>Buen concierto no lo dejes Pasar</p>
@@ -129,7 +121,6 @@ export function Home() {
                     </div>
                 </div>
             </section>
-            <Footer />
         </>
     )
 }
