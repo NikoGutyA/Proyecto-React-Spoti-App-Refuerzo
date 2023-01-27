@@ -6,7 +6,7 @@ export function Footer() {
                 <div className="container-fluid">
                     <div className="row justify-content-center align-items-center">
                         <div className="col-12 col-md-4 text-center">
-                            <img className="imagenGori" src="" alt="ImagenLogo" classNameName="img-fluid w-750"/>
+                            <img className="imagenGori" src="https://firebasestorage.googleapis.com/v0/b/reactpersonalspotifyapp.appspot.com/o/logo-One-Direction.png?alt=media&token=238c973b-ff56-483a-a95f-feee8cec5a65" alt="ImagenLogo" classNameName="img-fluid w-750"/>
                         </div>
                           <div className="col-12 col-md-4 text-center">
                             <h2 className="fw-bold">sobre la banda</h2>
